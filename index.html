@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+    <title>Belaljar TailwindCSS</title>
+</head>
+<body>
+
+    <h1 class="text-8xl text-center font-bold my-10">Mari Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">TailwindCSS</span> </h1>
+
+    <!-- Belajar Spacing -->
+    <section class="mb-10 bg-indigo-200">
+        <h2 class="text-4xl text-center m-4">Belajar Spacing</h2>
+        <h4 class="text-2xl text-center m-4">Bagian Margin</h4>
+        <div class="m-4 bg-indigo-950 text-white">Margin m-4 bernilai 1rem atau 16px</div>
+        <div class="-ml-8 bg-indigo-950 text-white">Margin -ml-8 untuk bernilai minus tambahkan - di depan nama class</div>
+        <div class="mr-13 bg-indigo-950 text-white mt-4">Ini Margin mr-13 setelah custom spacing</div>
+        <h4 class="text-2xl text-center m-4">Bagian Padding</h4>
+        <div class="p-6 bg-indigo-950 text-white mt-4">Ini Padding p-6 bernilai 1.5 rem atau 24px</div>
+    </section>
+
+    <!-- Belajar Sizing -->
+    <section class="mb-10 bg-blue-200">
+        <h2 class="text-4xl text-center m-4">Belajar Sizing</h2>
+        <h4 class="text-2xl text-center m-4">Bagian Width & Height</h4>
+        <div class="w-32 bg-blue-950 text-gray-200 m-4">Ini Width w-32</div>
+        <div class="h-24 bg-blue-950 text-gray-200 m-4">Ini Height h-24</div>
+        <div class="w-32 h-24 bg-blue-950 text-gray-200 m-4">Ini Width w-32 dan Height h-24</div>
+    </section>
+
+    <!-- Belajar Typography -->
+    <section class="mb-40">
+        <h2 class="text-4xl text-center m-4">Typography</h2>
+        <!-- Font Family -->
+        <h4 class="text-2xl text-center mt-4">Bagian Font Family</h4>
+        <p class="font-sans">font sans</p>
+        <p class="font-serif">font serif</p>
+        <p class="font-mono">font mono</p>
+        <p class="font-inter">font inter hasil custom di file tailwind.config.js</p>
+
+        <!-- Font Size -->
+        <h4 class="text-2xl text-center mt-4">Bagian Font Size</h4>
+        <p class="text-xs">text-xs</p>
+        <p class="text-sm">text-sm</p>
+        <p class="text-base">text-base</p>
+        <p class="text-lg">text-lg</p>
+        <p class="text-xl">text-xl</p>
+        <p class="text-2xl">text-2xl</p>
+        <p class="text-3xl">text-3xl</p>
+        <p class="text-4xl">text-4xl</p>
+        <p class="text-5xl">text-5xl</p>
+        <p class="text-6xl">text-6xl</p>
+        <p class="text-7xl">text-7xl</p>
+        <p class="text-8xl">text-8xl</p>
+        <p class="text-9xl">text-9xl</p>
+        
+        <!-- Font Weight -->
+        <h4 class="text-2xl text-center mt-4">Bagian Font Weight</h4>
+        <p class="font-thin">font-thin</p>
+        <p class="font-extralight">font-extralight</p>
+        <p class="font-light">font-light</p>
+        <p class="font-normal">font-normal</p>
+        <p class="font-medium">font-medium</p>
+        <p class="font-semibold">font-semibold</p>
+        <p class="font-bold">font-bold</p>
+        <p class="font-extrabold">font-extrabold</p>
+        <p class="font-black">font-black</p>
+
+        <!-- Text Color -->
+        <h4 class="text-2xl text-center mt-4">Bagian Text Color</h4>
+        <p class="text-blue-50">text-blue-50</p>
+        <p class="text-blue-100">text-blue-100</p>
+        <p class="text-blue-200">text-blue-200</p>
+        <p class="text-blue-300">text-blue-300</p>
+        <p class="text-blue-400">text-blue-400</p>
+        <p class="text-blue-500">text-blue-500</p>
+        <p class="text-blue-600">text-blue-600</p>
+        <p class="text-blue-700">text-blue-700</p>
+        <p class="text-blue-800">text-blue-800</p>
+        <p class="text-blue-900">text-blue-900</p>
+        <p class="text-blue-950">text-blue-950</p>        
+                
+    </section>
+
+    <section class="mb-40">
+        
+        <h2 class="text-4xl text-center m-4">Belajar Background</h2>
+        <!-- Background Color -->
+        <h4 class="text-2xl text-center m-4">Bagian Background Color </h4>
+        <div class="bg-slate-500 text-white mx-8 mt-4 p-5">bg-slate-500</div>
+        <div class="bg-red-900 text-white mx-16 mt-4 p-5">bg-red-900</div>
+        <div class="bg-modifikasi text-black mx-32 mt-4 p-5">bg-modifikasi warna hasil custom di file tailwind.config.js</div>
+
+        <!-- Background Color Gradient-->
+        <h4 class="text-2xl text-center m-4">Bagian Background Color Gradient </h4>
+        <div class="p-5 mt-4 bg-gradient-to-r from-indigo-500">bg-gradient-to-r from-slate-500</div>
+        <div class="p-5 mt-4 bg-gradient-to-r from-cyan-500 to-blue-500">bg-gradient-to-r from-cyan-500 to-blue-500</div>
+        <div class="p-5 mt-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500</div>
+        <div class="p-5 mt-4 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%">bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%</div>
+
+        <h4 class="text-2xl text-center m-4">Bagian Background Clip </h4>
+        <div class="mt-4 bg-clip-border p-6 bg-violet-600 border-8 border-violet-300 border-dashed">bg-clip-border</div>
+        <div class="mt-4 bg-clip-padding p-6 bg-violet-600 border-8 border-violet-300 border-dashed">bg-clip-padding</div>
+        <div class="mt-4 bg-clip-content p-6 bg-violet-600 border-8 border-violet-300 border-dashed">bg-clip-content</div>
+        <div class="text-5xl font-extrabold mt-10 text-center">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">bg-clip-text</span>
+        </div>
+
+
+    </section>
+
+    <section class="mb-96 font-inter max-w-3xl mx-auto">
+
+        <h2 class="mb-3 text-4xl font-bold">Belajar mengenai TYPOGRAPHY pada Tailwindcss</h2>
+
+        <p class="mb-4 text-lg text-gray-500">By <a href="#" class="text-gray-700 font-semibold">Sutisna</a>, 03 Juni 2023</p>
+
+        <p class="mb-4">Lorem ipsum dolor sit amet <a href="#" class="underline font-semibold text-blue-600">consectetur</a> adipisicing elit. Adipisci maxime corporis repellendus error vel magni nostrum reprehenderit at nihil? Consequuntur dicta temporibus libero distinctio odit, perferendis provident placeat, recusandae, voluptates ea commodi amet animi doloremque vitae iure assumenda ut neque dignissimos. Quasi impedit praesentium quos aut hic fugiat ex tempora!</p>
+
+        <blockquote class="mb-4 italic font-thin text-xl">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ducimus doloremque porro minus dolore voluptas nobis corrupti atque, accusamus dolorem?"</blockquote>
+
+        <p class="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, libero? Doloremque id quaerat natus, tenetur tempore nostrum culpa a deserunt minus porro dolore laudantium numquam delectus itaque, excepturi pariatur iusto inventore velit consequuntur aliquam ex!</p>
+    </section>
+</body>
+</html>
